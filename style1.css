@@ -1,0 +1,49 @@
++* {
+    box-sizing: border-box;
+    margin: 20;
+    padding: 20;
+}
+
+header {
+    background-color: #f40303;
+    color: #0d0d0d;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header form {
+    display: flex;
+}
+
+header input[type="text"] {
+    padding: 17px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+
+header button[type="Submit"] {
+    background-color: #08ed17;
+    color: #141313;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+main {
+    margin: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+#movie-list {
+   
